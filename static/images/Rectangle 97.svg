@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 19" width="28" height="19">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-862 -43L98 -43L98 2799L-862 2799Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #3f3d56 } 
+	</style>
+	<g id="Our Focus" clip-path="url(#cp1)">
+		<g id="Component 70 – 15">
+			<path id="Rectangle 97" class="shp0" d="M0 0.5L28 0.5L28 3L0 3L0 0.5Z" />
+			<path id="Rectangle 98" class="shp0" d="M0 8.5L28 8.5L28 11L0 11L0 8.5Z" />
+			<path id="Rectangle 99" class="shp0" d="M10.5 16L28 16L28 18.5L10.5 18.5L10.5 16Z" />
+		</g>
+	</g>
+</svg>

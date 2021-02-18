@@ -1,0 +1,45 @@
+<!DOCTYPE html5>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../static/js/script-2.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/css/home.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/our-focus.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/our-approach.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/our-investment.css">
+    <title>
+		{%block title%} {%endblock title%}
+			| First Project
+    </title>
+    <link rel="icon" href="../static/images/path72.png" sizes="32x32" />
+</head>
+<body>
+
+	<section id="top-header" style="background:rgba(0, 0, 0, 0.2)">
+    	<nav id="overlay">
+        	<img src="../static/images/close-button.svg" alt="menu" class="close-button"  id="close-menu">
+        	<ul>
+            	<li><a href="/">Home</a></li>
+            	<li><a href="/about">About</a></li>
+            	<li><a href="/services">Services</a></li>
+            	<li><a href="/contact">Contact Us</a></li>
+        	</ul>
+    	</nav>
+    	<header>
+       	 	<a href="/" class="logo">
+       	 		<img src="../static/images/logo.svg">
+       	 	</a>
+        	<span  class="menu-btn" id="open-menu">
+        		<i class="fa fa-bars"></i>
+    		</span>
+    	</header>
+	</section>
+
+	{% block body%} {% endblock body%}
+
+
+<script type="text/javascript" src="../static/js/script.js"></script>
+</body>
+</html>
